@@ -12,6 +12,10 @@
 		A4137EE1228D806700F30546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4137EDF228D806700F30546 /* Main.storyboard */; };
 		A4137EE3228D806800F30546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4137EE2228D806800F30546 /* Assets.xcassets */; };
 		A4137EE6228D806800F30546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4137EE4228D806800F30546 /* LaunchScreen.storyboard */; };
+		A4137EEE228D817E00F30546 /* OrderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4137EED228D817E00F30546 /* OrderTVC.swift */; };
+		A4137EF0228D819100F30546 /* InsertTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4137EEF228D819100F30546 /* InsertTVC.swift */; };
+		A4137EF2228D843100F30546 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4137EF1228D843100F30546 /* Order.swift */; };
+		A4635BEF228FD9ED000FC0F2 /* UpdataTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4635BEE228FD9ED000FC0F2 /* UpdataTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A4137EE2228D806800F30546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4137EE5228D806800F30546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4137EE7228D806800F30546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4137EED228D817E00F30546 /* OrderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTVC.swift; sourceTree = "<group>"; };
+		A4137EEF228D819100F30546 /* InsertTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTVC.swift; sourceTree = "<group>"; };
+		A4137EF1228D843100F30546 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A4635BEE228FD9ED000FC0F2 /* UpdataTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdataTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				A4137EDB228D806700F30546 /* AppDelegate.swift */,
 				A4137EDD228D806700F30546 /* ViewController.swift */,
+				A4137EEF228D819100F30546 /* InsertTVC.swift */,
 				A4137EDF228D806700F30546 /* Main.storyboard */,
+				A4137EED228D817E00F30546 /* OrderTVC.swift */,
+				A4635BEE228FD9ED000FC0F2 /* UpdataTVC.swift */,
+				A4137EF1228D843100F30546 /* Order.swift */,
 				A4137EE2228D806800F30546 /* Assets.xcassets */,
 				A4137EE4228D806800F30546 /* LaunchScreen.storyboard */,
 				A4137EE7228D806800F30546 /* Info.plist */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4635BEF228FD9ED000FC0F2 /* UpdataTVC.swift in Sources */,
+				A4137EF0228D819100F30546 /* InsertTVC.swift in Sources */,
 				A4137EDE228D806700F30546 /* ViewController.swift in Sources */,
+				A4137EF2228D843100F30546 /* Order.swift in Sources */,
+				A4137EEE228D817E00F30546 /* OrderTVC.swift in Sources */,
 				A4137EDC228D806700F30546 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
